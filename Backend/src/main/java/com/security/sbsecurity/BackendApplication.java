@@ -35,9 +35,9 @@ public class BackendApplication {
 
         User user = new User();
 
-        user.setUserName("pawani123");
+        user.setUserName("S17417");
         user.setFirstName("pawani");
-        user.setLastName("K");
+        user.setLastName("pubudika");
 
         user.setPassword(passwordEncoder.encode("pawani@123"));
         user.setEnabled(true);

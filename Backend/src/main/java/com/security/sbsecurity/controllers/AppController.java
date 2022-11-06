@@ -10,4 +10,9 @@ public class AppController {
     public String helloApp(){
         return "Hello";
     }
+
+    @GetMapping("/h")
+    public String helloApp2(){
+        return "Hellov2222222";
+    }
 }
