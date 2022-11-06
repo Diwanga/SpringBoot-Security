@@ -38,6 +38,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 //  http.authorizeRequests().anyRequest().permitAll(); // giving public access to all the urls
     http.authorizeRequests().anyRequest().authenticated();
     http.formLogin();
+    http.httpBasic();
 
     }
 
